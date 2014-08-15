@@ -43,6 +43,6 @@ class BrontoLaravelServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('paramore/bronto-laravel', 'bronto');
+		$this->package('paramoredigital/bronto-laravel', 'bronto');
 	}
 }
